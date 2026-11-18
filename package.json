@@ -1,0 +1,12 @@
+{
+  "name": "operator-memory-pool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Execution memory pool for query operators: arenas, page leases, spill, cancellation and fragmentation accounting",
+  "type": "commonjs",
+  "main": "src/memory-pool.js",
+  "scripts": {
+    "test": "node --test",
+    "simulate": "node examples/simulate.js"
+  }
+}
